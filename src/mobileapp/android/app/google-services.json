@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "176220972969",
+    "project_id": "drone-transportation-mobile",
+    "storage_bucket": "drone-transportation-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176220972969:android:8c5c0e8c05311bc42246b8",
+        "android_client_info": {
+          "package_name": "com.mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176220972969-pi5o4mk3idp985f2u7b9v48h5ho3j9nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl4y5sXaMlNBpRWIB6alilC1pP6U2k3U0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176220972969-pi5o4mk3idp985f2u7b9v48h5ho3j9nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176220972969:android:dd3d21cd9809a6632246b8",
+        "android_client_info": {
+          "package_name": "com.mobileapp_fly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176220972969-amjn81ls3u98tqlbafqparsrbuk68kmu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobileapp_fly",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "176220972969-pi5o4mk3idp985f2u7b9v48h5ho3j9nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl4y5sXaMlNBpRWIB6alilC1pP6U2k3U0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176220972969-pi5o4mk3idp985f2u7b9v48h5ho3j9nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
