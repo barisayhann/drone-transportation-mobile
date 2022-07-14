@@ -46,8 +46,8 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   cardAvatar: {
-    width: 128,
-    height: 128,
+    width: 92,
+    height: 92,
     borderColor: theme.colors.primary,
     borderWidth: 1,
     borderRadius: 75

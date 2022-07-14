@@ -25,5 +25,35 @@ export const drones = [
     capacity: 2,
     year: 2022,
     cost: 45
+  },
+
+  {
+    id: "4",
+    avatar: require("../assets/drone4.jpg"),
+    model: "Ehang 184",
+    speed: 100,
+    capacity: 2,
+    year: 2022,
+    cost: 30
+  },
+
+  {
+    id: "5",
+    avatar: require("../assets/drone5.jpg"),
+    model: "Airbus Vahana",
+    speed: 233,
+    capacity: 2,
+    year: 2020,
+    cost: 50
+  },
+
+  {
+    id: "6",
+    avatar: require("../assets/drone6.jpg"),
+    model: "Volocopter",
+    speed: 80,
+    capacity: 2,
+    year: 2020,
+    cost: 50
   }
 ];

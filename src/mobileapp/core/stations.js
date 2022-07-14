@@ -79,4 +79,93 @@ export const stations = [
       longitudeDelta: 0.0421
     }
   },
+
+  {
+    name: "Turkish German University Station",
+    droneId: 5,
+    coordinates: {
+      latitude: 41.144559,
+      longitude: 29.100932,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421
+    }
+  },
+
+  {
+    name: "Kavacık Mezarlik Station",
+    droneId: 6,
+    coordinates: {
+      latitude: 41.093766,
+      longitude: 29.094969,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421
+    }
+  },
+
+  {
+    name: "Levent Station",
+    droneId: 5,
+    coordinates: {
+      latitude: 41.083134,
+      longitude: 29.012220,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421
+    }
+  },
+
+  {
+    name: "Caddebostan Station",
+    droneId: 4,
+    coordinates: {
+      latitude: 40.962411,
+      longitude: 29.062195,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421
+    }
+  },
+
+  {
+    name: "Sögütlücesme Station",
+    droneId: 4,
+    coordinates: {
+      latitude: 40.990861,
+      longitude: 29.037942,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421
+    }
+  },
+
+  {
+    name: "Topkapi Station",
+    droneId: 6,
+    coordinates: {
+      latitude: 41.011697,
+      longitude: 28.983432,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421
+    }
+  },
+
+  {
+    name: "Maslak Station",
+    droneId: 4,
+    coordinates: {
+      latitude: 41.112128,
+      longitude: 29.019501,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421
+    }
+  },
+
+  {
+    name: "Gebze Station",
+    droneId: 5,
+    coordinates: {
+      latitude: 40.801895,
+      longitude: 29.431053,
+      latitudeDelta: 0.0922,
+      longitudeDelta: 0.0421
+    }
+  },
 ];
+

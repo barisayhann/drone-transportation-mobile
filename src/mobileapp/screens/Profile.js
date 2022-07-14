@@ -7,8 +7,12 @@ import Header from '../components/Header';
 import Button from '../components/Button';
 import UserAvatar from '../components/UserAvatar';
 import TextInput from '../components/TextInput';
+import InfoButton from '../components/InfoButton';
 
 export default function Profile({ navigation }) {
+  const onInfoPressed = () => {
+    navigation.navigate('InfoScreen');
+  }
 
   const { user } = useContext(AuthContext);
   const { profile, updateProfilePhone } = useContext(ProfileContext);
@@ -21,6 +25,7 @@ export default function Profile({ navigation }) {
 
   return (
     <Layout>
+      <InfoButton goInfo={onInfoPressed} />
       <BackButton goBack={navigation.goBack} />
       <UserAvatar label={profile.name.split(' ').shift().charAt(0) + profile.name.split(' ').pop().charAt(0)} size={128} />
       <Header>{profile.name}</Header>

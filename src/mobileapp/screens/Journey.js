@@ -13,9 +13,12 @@ import CountdownTimer from '../components/CountdownTimer'
 import { JourneyContext } from '../firebase/JourneyProvider';
 import { zero, stations } from '../core/stations'
 import { drones } from '../core/drones'
+import InfoButton from '../components/InfoButton';
 
 export default function Journey({ navigation }) {
-
+  const onInfoPressed = () => {
+    navigation.navigate('InfoScreen');
+  }
   const { logJourney } = useContext(JourneyContext);
 
   const mapRef = useRef(null);
@@ -120,7 +123,7 @@ export default function Journey({ navigation }) {
 
       setTimeout(() => {
         setJourneyStatus(false);
-        logJourney(from.name, destination.name, journeyPayment, drone.model);
+        logJourney(from.name, destination.name, (distance * drone.cost), drone.model);
         alert("Journey Complete!");
         navigation.navigate('LastJourneyScreen');
       }, duration);
@@ -133,6 +136,7 @@ export default function Journey({ navigation }) {
 
   return (
     <Layout>
+      <InfoButton goInfo={onInfoPressed} />
       {!journeyStatus && <BackButton goBack={navigation.goBack} />}
       <Header>Journey</Header>
       <Divider />

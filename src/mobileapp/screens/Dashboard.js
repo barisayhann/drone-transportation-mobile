@@ -43,8 +43,8 @@ export default function Dashboard({ navigation }) {
     <Layout>
       <LogoutButton logout={onLogoutPressed} />
       <InfoButton goInfo={onInfoPressed} />
-      <UserAvatar label={profile.name.split(' ').shift().charAt(0) + profile.name.split(' ').pop().charAt(0)} size={92} />
-      <Header>{profile.name}</Header>
+      <UserAvatar label={profile?.name.split(' ').shift().charAt(0) + profile?.name.split(' ').pop().charAt(0)} size={92} />
+      <Header>{profile?.name}</Header>
       <Paragraph>You can select your destination under 'Start Journey' section.</Paragraph>
       <Paragraph>You can find more information about drones in 'Drone Informations' section.</Paragraph>
       <Divider />
